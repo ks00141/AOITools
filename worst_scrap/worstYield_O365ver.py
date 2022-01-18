@@ -20,7 +20,7 @@ NS = '[최종외검][CSP,WLP]최종외검 저수율 리스트'
 PST = '[PST Map]PST AOI 저수율 리스트'
 
 admin_flag = 0
-admin_param = '08'
+admin_param = '16'
 if admin_flag == 0:
     date = datetime.datetime.now().strftime("[%Y-%m-%d]")
 elif admin_flag == 1:
@@ -59,10 +59,11 @@ time.sleep(2)
 # submit btn click
 submit = driver.find_element_by_id('idSIButton9')
 submit.send_keys(Keys.RETURN)
-time.sleep(2)
+time.sleep(10)
 
 # 저수율메일함 Web elem click
-cursor = driver.find_element_by_css_selector('#app > div > div.zZJcFiYp1GsQ-Zkcz02eC > div.mXEfuMleN9V2Rx6d6qvsu > div._2aSECY2_aC8BM-pa12gLyl > div > div > div.tQjtZGBXoedSUDzkcRzw5 > div._1mmhFz6xbEHFv6FfTUKPW2 > div > div > div > div:nth-child(4) > div:nth-child(9)')
+#cursor = driver.find_element_by_css_selector('#app > div > div.zZJcFiYp1GsQ-Zkcz02eC > div.mXEfuMleN9V2Rx6d6qvsu > div._2aSECY2_aC8BM-pa12gLyl > div > div > div.tQjtZGBXoedSUDzkcRzw5 > div._1mmhFz6xbEHFv6FfTUKPW2 > div > div > div > div:nth-child(3) > div:nth-child(9)')
+cursor = driver.find_element_by_xpath(r'/html/body/div[3]/div/div[2]/div[2]/div/div/div/div[1]/div[2]/div/div/div/div[3]/div[9]')
 cursor.click()
 time.sleep(5)
 # Mail 공통 클래스 : _1bVZQZoqR8bXQm6sTkfm1W
@@ -105,11 +106,11 @@ for i in range(3):
                     sheet.cell(row=no+1,column=4).style = 'Hyperlink'
                     sheet.cell(row=no+1,column=5).value = yield_
                 try:  
-                    wb.save(f'./저수율list/TC/{dateYM}/TC_저수율list_{date}.xlsx')
+                    wb.save(f'C:/Users/wisol/Desktop/job/저수율list/TC/{dateYM}/TC_저수율list_{date}.xlsx')
                 except:
                     print("Create Directory")
-                    os.mkdir(f'./저수율list/TC/{dateYM}')
-                    wb.save(f'./저수율list/TC/{dateYM}/TC_저수율list_{date}.xlsx')
+                    os.mkdir(f'C:/Users/wisol/Desktop/job/저수율list/TC/{dateYM}')
+                    wb.save(f'C:/Users/wisol/Desktop/job/저수율list/TC/{dateYM}/TC_저수율list_{date}.xlsx')
                 print('작업 완료')
                 # list_btn = driver.find_element_by_css_selector('#wrap > form > div:nth-child(20) > ul.menuLeft > li:nth-child(8) > a > span')
                 # list_btn.click()
@@ -138,10 +139,10 @@ for i in range(3):
                     sheet.cell(row=no+1,column=4).style = 'Hyperlink'
                     sheet.cell(row=no+1,column=5).value = yield_
                 try:  
-                    wb.save(f'./저수율list/NS/{dateYM}/NS_저수율list_{date}.xlsx')
+                    wb.save(f'C:/Users/wisol/Desktop/job/저수율list/NS/{dateYM}/NS_저수율list_{date}.xlsx')
                 except:
-                    os.mkdir(f'./저수율list/NS/{dateYM}')
-                    wb.save(f'./저수율list/NS/{dateYM}/NS_저수율list_{date}.xlsx')
+                    os.mkdir(f'C:/Users/wisol/Desktop/job/저수율list/NS/{dateYM}')
+                    wb.save(f'C:/Users/wisol/Desktop/job/저수율list/NS/{dateYM}/NS_저수율list_{date}.xlsx')
                 print('작업 완료')
                 # list_btn = driver.find_element_by_css_selector('#wrap > form > div:nth-child(20) > ul.menuLeft > li:nth-child(8) > a > span')
                 # list_btn.click()
@@ -170,10 +171,10 @@ for i in range(3):
                     sheet.cell(row=no+1,column=4).style = 'Hyperlink'
                     sheet.cell(row=no+1,column=5).value = yield_
                 try:  
-                    wb.save(f'./저수율list/PST/{dateYM}/PST_저수율list_{date}.xlsx')
+                    wb.save(f'C:/Users/wisol/Desktop/job/저수율list/PST/{dateYM}/PST_저수율list_{date}.xlsx')
                 except:
-                    os.mkdir(f'./저수율list/PST/{dateYM}')
-                    wb.save(f'./저수율list/PST/{dateYM}/PST_저수율list_{date}.xlsx')
+                    os.mkdir(f'C:/Users/wisol/Desktop/job/저수율list/PST/{dateYM}')
+                    wb.save(f'C:/Users/wisol/Desktop/job/저수율list/PST/{dateYM}/PST_저수율list_{date}.xlsx')
                 print('작업 완료')
                 # list_btn = driver.find_element_by_css_selector('#wrap > form > div:nth-child(20) > ul.menuLeft > li:nth-child(8) > a > span')
                 # list_btn.click()
