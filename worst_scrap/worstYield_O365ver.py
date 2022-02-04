@@ -6,7 +6,11 @@ import datetime
 import time
 import openpyxl
 import os
+import configparser
 
+#configparser
+config = configparser.ConfigParser()
+config.read('./')
 # o365 URL
 URL = 'https://outlook.office.com/'
 
@@ -20,7 +24,7 @@ NS = '[최종외검][CSP,WLP]최종외검 저수율 리스트'
 PST = '[PST Map]PST AOI 저수율 리스트'
 
 admin_flag = 0
-admin_param = '16'
+admin_param = '01'
 if admin_flag == 0:
     date = datetime.datetime.now().strftime("[%Y-%m-%d]")
 elif admin_flag == 1:
