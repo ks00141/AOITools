@@ -67,6 +67,6 @@ for elem in elems:                                                              
             kafka_producer(producer=KafkaProducer,                                  # kafka 전송
                            data=data_json,
                            server_ip='localhost:9092',
-                           topic='datastudy')
+                           topic='NS')
         break
 
