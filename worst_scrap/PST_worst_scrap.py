@@ -9,7 +9,9 @@ from input_key import input_key
 import time
 from datetime import datetime
 from return_titles import return_titles
+from kafka_producer import kafka_producer
 import json
+from kafka import KafkaProducer
 
 
 TIMEDELAY = 5   # Web Browser Lading Delay
@@ -61,5 +63,9 @@ for elem in elems:                                                              
                                    ensure_ascii=False)                              # 한글 저장을 위해 ascii encoding X
 
             print(data_json)                                                        # json console 출력
+            kafka_producer(producer=KafkaProducer,                                  # kafka 전송
+                           data=data_json,
+                           server_ip='localhost:9092',
+                           topic='datastudy')
         break
 
