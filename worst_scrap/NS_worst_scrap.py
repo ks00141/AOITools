@@ -16,7 +16,7 @@ from kafka import KafkaProducer
 
 TIMEDELAY = 5   # Web Browser Lading Delay
 TODAY = datetime.today().date().strftime('[%Y-%m-%d]')  # 메일 제목 오늘 날짜 설정
-FINDTITLE = '[PST Map]PST AOI 저수율 리스트 ' + TODAY  # 찾을 메일 제목
+FINDTITLE = '[CSP,WLP]최종외검 저수율 리스트 ' + TODAY  # 찾을 메일 제목
 TITLECLASSNAME = 'NsB53xFTU532cgP0ztFSC'    # 메일 제목 HTML class attr value
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))     # Selenium Chrome Browser 실행
@@ -51,6 +51,7 @@ elems = return_titles(driver=driver,                # webdriver class
 # mail list 에서 target mail 찾기
 for elem in elems:                                                                  # mail list 탐색
     title = elem.get_attribute('aria-label')                                        # mail element aria-label attr = 메일 제목
+    print(title)
     if FINDTITLE in title:                                                          # 메일 제목 에서 찾고자 하는 메일 제목 문자열이 있는지
         elem.click()                                                                # 해당하는 메일 mail click
         time.sleep(TIMEDELAY)                                                       # 메일 로딩 대기
@@ -66,6 +67,6 @@ for elem in elems:                                                              
             kafka_producer(producer=KafkaProducer,                                  # kafka 전송
                            data=data_json,
                            server_ip='localhost:9092',
-                           topic='PST')
+                           topic='NS')
         break
 
