@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from login import login
 from get_mail_box import get_mail_box
@@ -14,12 +15,16 @@ import json
 from kafka import KafkaProducer
 
 
+chrome_options = Options()
+chrome_options.add_argument('--window-size=1920,1080')
+chrome_options.add_argument('headless')
 TIMEDELAY = 5   # Web Browser Lading Delay
 TODAY = datetime.today().date().strftime('[%Y-%m-%d]')  # 메일 제목 오늘 날짜 설정
 FINDTITLE = '[PST Map]PST AOI 저수율 리스트 ' + TODAY  # 찾을 메일 제목
 TITLECLASSNAME = 'NsB53xFTU532cgP0ztFSC'    # 메일 제목 HTML class attr value
 
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))     # Selenium Chrome Browser 실행
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),
+                          chrome_options=chrome_options)     # Selenium Chrome Browser 실행
 
 time.sleep(TIMEDELAY)       # Browser 로딩 시간 대기
 driver.get('https://outlook.office365.com')     # outlook page 접속
@@ -40,7 +45,7 @@ time.sleep(TIMEDELAY)       # Browser 로딩 시간 대기
 # worst mailbox click method
 get_mail_box(by=By,             # element 탐색을 위한 webdriver.common.by.By class
              driver=driver)     # webdriver class
-
+print('get mail box')
 time.sleep(TIMEDELAY)       # Browser 로딩 시간 대기
 
 # worst mailbox 에서 mail titles 획득
@@ -63,9 +68,8 @@ for elem in elems:                                                              
                                    ensure_ascii=False)                              # 한글 저장을 위해 ascii encoding X
 
             print(data_json)                                                        # json console 출력
-            kafka_producer(producer=KafkaProducer,                                  # kafka 전송
-                           data=data_json,
-                           server_ip='localhost:9092',
-                           topic='PST')
+            # kafka_producer(producer=KafkaProducer,                                  # kafka 전송
+            #                data=data_json,
+            #                server_ip='localhost:9092',
+            #                topic='PST')
         break
-
