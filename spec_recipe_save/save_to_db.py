@@ -7,7 +7,7 @@
 
 import pymysql
 import json
-import re
+
 
 # dbinfo.json 파일로부터 설정값 불러오기
 db_info = json.load(fp=open('dbinfo.json', 'r', encoding='utf-8'))
@@ -24,8 +24,6 @@ cur = conn.cursor()
 with open(file='recipes.json', mode='r', encoding='utf-8') as recipe_data:
     data = json.load(recipe_data)
 
-#
-
 # cluster_recipes, frontside_recipes key list 생성
 cluster_recipes = list(data.keys())
 frontside_recipes = list(data.values())
@@ -40,5 +38,9 @@ recipes = [{'cluster_recipe': cluster, 'frontside_recipe': frontside} for cluste
 sql = 'INSERT INTO `spec` VALUES(%(cluster_recipe)s, %(frontside_recipe)s)'
 cur.executemany(query=sql,
                 args=recipes)
+
+# commit and resource return
 conn.commit()
+cur.close()
+conn.close()
 
