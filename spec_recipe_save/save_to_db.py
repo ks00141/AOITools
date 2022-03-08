@@ -3,7 +3,10 @@
 # recipe
 #  └─ spec table
 #       ├─ cluster_recipe, varchar(60)
-#       └─ frontside_recipe, varchar(60)
+#       ├─ frontside_recipe, varchar(60)
+#       ├─ inspection_dies, int
+#       ├─ inspection_columns, int
+#       └─ inspection_rows, int
 
 import pymysql
 import json
