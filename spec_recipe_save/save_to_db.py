@@ -24,28 +24,6 @@ cur = conn.cursor()
 with open(file='recipes.json', mode='r', encoding='utf-8') as recipe_data:
     data = json.load(recipe_data)
 
-# cluster_recipes, recipes_values list 생성
-cluster_recipes = list(data.keys())
-recipes_values = list(data.values())
-values_key = list(recipes_values[0])
-# for i in range(len(cluster_recipes)):
-#     recipes.update(
-#         {'cluster_recipe': cluster_recipes[0],
-#          'frontsdie_recipe': recipes_values[0][values_key[0]],
-#          'inspection_dies': recipes_values[0][values_key[1]],
-#          'inspection_columns'
-# recipes_values[0][values_key[2]]
-#     recipes_values[0][values_key[3]]
-
-print(list(data.values())[0])
-# 1. Recipe 개별로 다음과 같은 객체를 생성
-#       cluster_recipe(Key) : cluster_reicpe(Value)
-#       frontside_recipe(Key) : frontside_recipe(Value)
-# 2. 객체가 담긴 리스트 생성
-# recipes = [{'cluster_recipe': cluster, 'frontside_recipe': frontside} for cluster, frontside in zip(cluster_recipes, frontside_recipes)]
-
-
-
 # insert query
 sql = f'INSERT INTO `spec` VALUES(%(cluster_recipe)s, %(frontside_recipe)s, %(inspection_dies)s, %(inspection_columns)s, %(inspection_rows)s) '    # excutemany 할때 dict key값이 들어감
 cur.executemany(query=sql,
