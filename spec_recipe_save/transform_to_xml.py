@@ -23,6 +23,9 @@ files = sum([[os.path.join(dir, file) for file in os.listdir(dir)] for dir in DI
 
 cluster_recipe= list()
 frontside_recipe = list()
+inspection_dies = list()
+inspection_columns = list()
+inspection_rows = list()
 recipes = dict()
 
 # XML 파일 읽기
@@ -30,7 +33,11 @@ for file in files:
     xml = et.parse(file)
     root = xml.getroot()
     # PPID tag = cluster recipe
-    cluster_recipe.append(re.sub('[\\\\]', '/', root.find("PPID").text))            # 백슬래시는 정규식을 이용하여 / 로 치환
+    cluster_recipe.append(
+        re.sub('[\\\\]', '/',                                                       # 백슬래시는 정규식을 이용하여 / 로 치환
+               root.find("PPID")
+               .text)
+    )
     # frontside recipe
     frontside_recipe.append(
         re.sub('[\\\\]', '/',                                                       # 백슬래시는 정규식을 이용하여 / 로 치환
@@ -39,8 +46,38 @@ for file in files:
                .text)
     )
 
+    inspection_dies.append(
+        root.find("FrontsideRecipe")
+        .find("TestableDies")
+        .text
+    )
+
+    inspection_columns.append(
+        root.find("FrontsideRecipe")
+        .find("ColumnNumber")
+        .text
+    )
+
+    inspection_rows.append(
+        root.find("FrontsideRecipe")
+        .find("RowNumber")
+        .text
+    )
+
+
 # cluster_recipe : frontside_recipe 형태의 dict 생성
-recipes = {clu_recipe: fro_recipe for clu_recipe, fro_recipe in zip(cluster_recipe, frontside_recipe)}
+# recipes = {clu_recipe: fro_recipe for clu_recipe, fro_recipe in zip(cluster_recipe, frontside_recipe)}
+for i in range(len(cluster_recipe)):
+    recipes.update(
+        {cluster_recipe[i]: {
+            "cluster_recipe": cluster_recipe[i],
+            "frontside_recipe": frontside_recipe[i],
+            "inspection_dies": inspection_dies[i],
+            "inspection_columns": inspection_columns[i],
+            "inspection_rows": inspection_rows[i]
+        }
+        }
+    )
 
 # recipes dict -> recipes.json 파일로 저장
 with open('./recipes.json', 'w', encoding='utf-8') as save_file:
