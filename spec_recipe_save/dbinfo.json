@@ -1,7 +1,7 @@
 {
-  "DBIP": "localhost",
+  "DBIP": "10.21.11.210",
   "DBPORT": 3306,
   "DBNAME": "recipe",
-  "USER": "root",
-  "PWD": "wisol123"
+  "USER": "aoi",
+  "PWD": "abc123**"
 }
