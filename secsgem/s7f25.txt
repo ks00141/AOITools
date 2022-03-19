@@ -1,0 +1,898 @@
+SX897FYTTF05\FINAL_MERGE\75X-BF
+
+[2022-01-28 08:49:10.816] DataReceived, SecsDevice=<EQP>, SessionId=<0>, Length=<11362>, AutoReply=<False>
+[2022-01-28 08:49:10.816] ResultCode=<Warninig>, ResultMessage=<The Message is not defined.>
+S7F26V0
+  <L [4]    // L
+    <A [31] 'SX897FYTTF05\FINAL_MERGE\75X-BF'>    // I
+    <A [3] 'XPL'>    // I
+    <A [4] '8610'>    // I
+    <L [147]    // L
+      <L [2]    // L
+        <A [21] 'ClusterRecipeDateTime'>    // I
+        <L    // L
+          <A [14] '20220121225900'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [21] 'ExportWafermapRecipes'>    // I
+        <L [2]    // L
+          <A [7] 'WWM_ADC'>    // I
+          <A [19] 'Z_Defect_Image_Save'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [30] 'Frontside\AllowOTFImageCapture'>    // I
+        <L    // L
+          <A [3] 'Yes'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [22] 'Frontside\ColumnNumber'>    // I
+        <L    // L
+          <A [2] '84'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [33] 'Frontside\InitialWaferOrientation'>    // I
+        <L    // L
+          <A [2] '90'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [56] 'Frontside\InspectionPasses\1\AutoTrainCandidateSelection'>    // I
+        <L    // L
+          <A [6] 'Manual'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [51] 'Frontside\InspectionPasses\1\AutoTrainDiePercentage'>    // I
+        <L    // L
+          <A [9] '0.5570168'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [50] 'Frontside\InspectionPasses\1\AutoTrainNumberOfDies'>    // I
+        <L    // L
+          <A [2] '36'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [49] 'Frontside\InspectionPasses\1\DetectorTrainingType'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [51] 'Frontside\InspectionPasses\1\GammaCorrectionEnabled'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [74] 'Frontside\InspectionPasses\1\IlluminationConfig\1\BFIlluminationDesiredGSV'>    // I
+        <L    // L
+          <A [2] '90'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\IlluminationConfig\1\BFIlluminationEnabled'>    // I
+        <L    // L
+          <A [3] 'Yes'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [76] 'Frontside\InspectionPasses\1\IlluminationConfig\1\BFIlluminationPowerSetting'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [74] 'Frontside\InspectionPasses\1\IlluminationConfig\1\DFIlluminationDesiredGSV'>    // I
+        <L    // L
+          <A [3] '200'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\IlluminationConfig\1\DFIlluminationEnabled'>    // I
+        <L    // L
+          <A [2] 'No'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [76] 'Frontside\InspectionPasses\1\IlluminationConfig\1\DFIlluminationPowerSetting'>    // I
+        <L    // L
+          <A [6] 'Manual'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [42] 'Frontside\InspectionPasses\1\InspectedDies'>    // I
+        <L    // L
+          <A [4] '6463'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\1\InspectionConfigs\1\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A [3] 'Low'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\1\DefectBinningStrategy'>    // I
+        <L    // L
+          <A [8] 'PAD_20um'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\1\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '3'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\1\DetectionThresholdType'>    // I
+        <L    // L
+          <A [6] 'Manual'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\1\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A [2] '20'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\1\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A [2] '20'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\1\InspectionConfigs\1\ManualThresholdValue'>    // I
+        <L    // L
+          <A '8'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [74] 'Frontside\InspectionPasses\1\InspectionConfigs\10\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A [4] 'High'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\10\DefectBinningStrategy'>    // I
+        <L    // L
+          <A [19] 'TC_CSP_PIN MARK 7um'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [76] 'Frontside\InspectionPasses\1\InspectionConfigs\10\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '5'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [72] 'Frontside\InspectionPasses\1\InspectionConfigs\10\DetectionThresholdType'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [76] 'Frontside\InspectionPasses\1\InspectionConfigs\10\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '7'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [76] 'Frontside\InspectionPasses\1\InspectionConfigs\10\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '7'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\10\ManualThresholdValue'>    // I
+        <L    // L
+          <A [2] '60'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\1\InspectionConfigs\2\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A [4] 'High'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\2\DefectBinningStrategy'>    // I
+        <L    // L
+          <A [7] 'IDT_5um'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\2\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '3'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\2\DetectionThresholdType'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\2\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '5'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\2\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '5'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\1\InspectionConfigs\2\ManualThresholdValue'>    // I
+        <L    // L
+          <A [2] '70'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\1\InspectionConfigs\3\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A [3] 'Low'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\3\DefectBinningStrategy'>    // I
+        <L    // L
+          <A [20] 'PAD_TCCSP_10um_SOBEL'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\3\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '5'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\3\DetectionThresholdType'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\3\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A [2] '15'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\3\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A [2] '15'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\1\InspectionConfigs\3\ManualThresholdValue'>    // I
+        <L    // L
+          <A [2] '15'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\1\InspectionConfigs\4\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\4\DefectBinningStrategy'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\4\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\4\DetectionThresholdType'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\4\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\4\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\1\InspectionConfigs\4\ManualThresholdValue'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\1\InspectionConfigs\5\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\5\DefectBinningStrategy'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\5\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\5\DetectionThresholdType'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\5\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\5\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\1\InspectionConfigs\5\ManualThresholdValue'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\1\InspectionConfigs\6\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A [4] 'High'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\6\DefectBinningStrategy'>    // I
+        <L    // L
+          <A [20] 'TC_CSP_PIN MARK 10um'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\6\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '5'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\6\DetectionThresholdType'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\6\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A [2] '10'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\6\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A [2] '10'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\1\InspectionConfigs\6\ManualThresholdValue'>    // I
+        <L    // L
+          <A [2] '60'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\1\InspectionConfigs\7\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A [4] 'High'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\7\DefectBinningStrategy'>    // I
+        <L    // L
+          <A [9] 'PAD_10um '>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\7\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '3'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\7\DetectionThresholdType'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\7\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A [2] '10'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\7\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A [2] '10'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\1\InspectionConfigs\7\ManualThresholdValue'>    // I
+        <L    // L
+          <A [2] '70'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\1\InspectionConfigs\8\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A [3] 'Low'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\8\DefectBinningStrategy'>    // I
+        <L    // L
+          <A [19] 'TC_CSP_PIN MARK 3um'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\8\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '3'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\8\DetectionThresholdType'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\8\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '3'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\8\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '3'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\1\InspectionConfigs\8\ManualThresholdValue'>    // I
+        <L    // L
+          <A [2] '10'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\1\InspectionConfigs\9\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\1\InspectionConfigs\9\DefectBinningStrategy'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\9\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\1\InspectionConfigs\9\DetectionThresholdType'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\9\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\1\InspectionConfigs\9\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\1\InspectionConfigs\9\ManualThresholdValue'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [46] 'Frontside\InspectionPasses\1\InspectionOptions'>    // I
+        <L [3]    // L
+          <A [27] 'PatternComparisonInspection'>    // I
+          <A [20] 'ColorShiftInspection'>    // I
+          <A [19] 'ProbemarkInspection'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [47] 'Frontside\InspectionPasses\1\InspectionPassName'>    // I
+        <L    // L
+          <A [40] 'Patterned 2D Frontside Inspection Pass A'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [42] 'Frontside\InspectionPasses\1\Magnification'>    // I
+        <L    // L
+          <A [4] '7.5X'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [41] 'Frontside\InspectionPasses\1\NumberOfROIs'>    // I
+        <L    // L
+          <A [2] '61'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [51] 'Frontside\InspectionPasses\1\TrainDetectorFrequency'>    // I
+        <L    // L
+          <A [8] 'PerWafer'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [56] 'Frontside\InspectionPasses\2\AutoTrainCandidateSelection'>    // I
+        <L    // L
+          <A [6] 'Manual'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [51] 'Frontside\InspectionPasses\2\AutoTrainDiePercentage'>    // I
+        <L    // L
+          <A [9] '0.5570168'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [50] 'Frontside\InspectionPasses\2\AutoTrainNumberOfDies'>    // I
+        <L    // L
+          <A [2] '36'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [49] 'Frontside\InspectionPasses\2\DetectorTrainingType'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [51] 'Frontside\InspectionPasses\2\GammaCorrectionEnabled'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [74] 'Frontside\InspectionPasses\2\IlluminationConfig\1\BFIlluminationDesiredGSV'>    // I
+        <L    // L
+          <A [3] '100'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\2\IlluminationConfig\1\BFIlluminationEnabled'>    // I
+        <L    // L
+          <A [3] 'Yes'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [76] 'Frontside\InspectionPasses\2\IlluminationConfig\1\BFIlluminationPowerSetting'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [74] 'Frontside\InspectionPasses\2\IlluminationConfig\1\DFIlluminationDesiredGSV'>    // I
+        <L    // L
+          <A [3] '200'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\2\IlluminationConfig\1\DFIlluminationEnabled'>    // I
+        <L    // L
+          <A [2] 'No'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [76] 'Frontside\InspectionPasses\2\IlluminationConfig\1\DFIlluminationPowerSetting'>    // I
+        <L    // L
+          <A [6] 'Manual'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [42] 'Frontside\InspectionPasses\2\InspectedDies'>    // I
+        <L    // L
+          <A [4] '6463'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\2\InspectionConfigs\1\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\2\InspectionConfigs\1\DefectBinningStrategy'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\1\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\2\InspectionConfigs\1\DetectionThresholdType'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\1\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\1\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\2\InspectionConfigs\1\ManualThresholdValue'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\2\InspectionConfigs\2\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\2\InspectionConfigs\2\DefectBinningStrategy'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\2\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\2\InspectionConfigs\2\DetectionThresholdType'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\2\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\2\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\2\InspectionConfigs\2\ManualThresholdValue'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\2\InspectionConfigs\3\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\2\InspectionConfigs\3\DefectBinningStrategy'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\3\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\2\InspectionConfigs\3\DetectionThresholdType'>    // I
+        <L    // L
+          <A>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\3\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\3\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\2\InspectionConfigs\3\ManualThresholdValue'>    // I
+        <L    // L
+          <A '0'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [73] 'Frontside\InspectionPasses\2\InspectionConfigs\4\AutoThresholdSensitivity'>    // I
+        <L    // L
+          <A [4] 'High'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [70] 'Frontside\InspectionPasses\2\InspectionConfigs\4\DefectBinningStrategy'>    // I
+        <L    // L
+          <A [16] 'IDT_2nd_PASS_3um'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\4\DetectionStandardDeviation'>    // I
+        <L    // L
+          <A '3'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [71] 'Frontside\InspectionPasses\2\InspectionConfigs\4\DetectionThresholdType'>    // I
+        <L    // L
+          <A [4] 'Auto'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\4\FilterMinimumDetectionArea'>    // I
+        <L    // L
+          <A '3'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [75] 'Frontside\InspectionPasses\2\InspectionConfigs\4\FilterMinimumDetectionSize'>    // I
+        <L    // L
+          <A '3'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [69] 'Frontside\InspectionPasses\2\InspectionConfigs\4\ManualThresholdValue'>    // I
+        <L    // L
+          <A [2] '10'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [46] 'Frontside\InspectionPasses\2\InspectionOptions'>    // I
+        <L    // L
+          <A [27] 'PatternComparisonInspection'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [47] 'Frontside\InspectionPasses\2\InspectionPassName'>    // I
+        <L    // L
+          <A [48] 'Copy of Patterned 2D Frontside Inspection Pass A'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [42] 'Frontside\InspectionPasses\2\Magnification'>    // I
+        <L    // L
+          <A [4] '7.5X'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [41] 'Frontside\InspectionPasses\2\NumberOfROIs'>    // I
+        <L    // L
+          <A [2] '25'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [51] 'Frontside\InspectionPasses\2\TrainDetectorFrequency'>    // I
+        <L    // L
+          <A [8] 'PerWafer'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [20] 'Frontside\RecipeName'>    // I
+        <L    // L
+          <A [42] 'TC-CSP_SX897FYTTF05_ADC\FINAL\75X BF_SOBEL'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [19] 'Frontside\RowNumber'>    // I
+        <L    // L
+          <A [3] '104'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [25] 'Frontside\SubstrateLayout'>    // I
+        <L    // L
+          <A [9] 'Patterned'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [22] 'Frontside\TestableDies'>    // I
+        <L    // L
+          <A [4] '6463'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [26] 'Frontside\WaferOrientation'>    // I
+        <L    // L
+          <A [6] 'Normal'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [20] 'ImportWafermapRecipe'>    // I
+        <L    // L
+          <A [10] 'IMPORT_MAP'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [20] 'IsExportingWaferMaps'>    // I
+        <L    // L
+          <A [4] 'True'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [19] 'IsImportingWafermap'>    // I
+        <L    // L
+          <A [4] 'True'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [26] 'SubstratePostProcessRecipe'>    // I
+        <L    // L
+          <A [7] 'TrueADC'>    // I
+        >
+      >
+      <L [2]    // L
+        <A [51] 'SubstratePostProcessRecipe\DiscoverRRFExportEnabled'>    // I
+        <L    // L
+          <A [4] 'True'>    // I
+        >
+      >
+    >
+  >.
+
